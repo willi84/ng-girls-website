@@ -39,7 +39,7 @@ jobs:
           service-host: api-eu.ionos.space
           api-key: ${{ secrets.IONOS_API_KEY }}
           remote-host: ${{ steps.project.outputs.remote-host }}
-          dist-folder: dist
+          dist-folder: dist/static
           project: 132fc3eb-f436-40f4-8008-58f30fde5918
           storage-quota: ${{ steps.project.outputs.storage-quota }}
           branch-id: ${{ steps.project.outputs.branch-id }}
