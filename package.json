@@ -1,6 +1,9 @@
 {
   "name": "ng-girls-page",
   "version": "0.0.0",
+  "engines": {
+    "node": "12.13.0"
+  },
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
@@ -12,6 +15,7 @@
     "e2e": "ng e2e",
     "scully": "scully",
     "scully:serve": "scully serve",
+    "scully:watch": "scully --watch",
     "sw-build": "node scripts/workbox-build.js && npx rollup -c",
     "new-event": "ng g @scullyio/init:post --metaDataFile='templates/workshop-meta.yaml' --target=workshops",
     "new-post": "ng g @scullyio/init:post --metaDataFile='templates/post-meta.yaml' --target=blog"
