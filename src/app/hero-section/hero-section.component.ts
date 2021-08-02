@@ -7,8 +7,9 @@ import { ChangeDetectorRef, Component, Input, OnInit } from '@angular/core';
       <div>
           <app-bg-image [image]="image"></app-bg-image>
           <app-logo [logo]="logo">
-              <ng-content></ng-content>
-          </app-logo>
+          <ng-content></ng-content>
+      </app-logo>
+          
       </div>
     </div>
   `,
@@ -18,6 +19,7 @@ import { ChangeDetectorRef, Component, Input, OnInit } from '@angular/core';
     position: relative;
     display: block;
   }
+  
   
   `]
 })
