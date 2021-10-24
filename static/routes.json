@@ -1,14 +1,5 @@
 {
     "routes": [
-        {
-            "route": "/ngPoland-2021",
-            "serve": "https://workshops.ng-girls.org/ngPoland-2021/",
-            "statusCode": 301
-        },
-        {
-            "route": "/ng-be-2021",
-            "redirect": "https://workshops.ng-girls.org/ng-be-2021/",
-            "statusCode": 301
-        }
+        
     ]
 }
