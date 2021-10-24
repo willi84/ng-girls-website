@@ -1,0 +1,9 @@
+{
+    "routes": [
+        {
+            "route": "/ngPoland-2021",
+            "serve": "https://workshops.ng-girls.org/ngPoland-2021/",
+            "statusCode": 301
+        }
+    ]
+}
