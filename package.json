@@ -5,7 +5,7 @@
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build --prod",
-    "postbuild": " npm run static",
+    "postbuild": "npm run static",
     "static": "cp -r static/* dist/ng-girls-website",
     "test": "ng test",
     "lint": "ng lint",
